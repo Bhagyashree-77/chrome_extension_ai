@@ -1,0 +1,15 @@
+#chat-container {
+    width: 300px;
+    padding: 10px;
+  }
+  #chat-output {
+    border: 1px solid #ddd;
+    height: 150px;
+    overflow-y: scroll;
+    padding: 5px;
+  }
+  #user-input {
+    width: 80%;
+    padding: 5px;
+  }
+  

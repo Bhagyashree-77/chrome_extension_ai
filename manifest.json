@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "GitChat.ai",
+    "version": "1.0",
+    "description": "Chat with GitHub repositories using Gemini Nano API",
+    "permissions": [
+      "storage",
+      "activeTab",
+      "scripting"
+    ],
+    "host_permissions": [
+      "https://api.github.com/*",
+      "https://api.chromium.org/*"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icons/icons8-ai-32.png",
+        "48": "icons/icons8-ai-50.png",
+        "128": "icons/icons8-github-64.png"
+      }
+    }
+  }
+  
